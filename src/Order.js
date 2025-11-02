@@ -16,4 +16,12 @@ export class Order {
   return subtotal + this.shippingFee;
 }
 
+ applyDiscount(percent) {
+    this.products = this.products.map(p => {
+      p.price = p.price * (1 - percent / 100);
+      return p;
+    });
+  }
+
+
 }
