@@ -9,3 +9,4 @@ console.log("Total:", order.getTotal());
 console.log("Calculating total...");
 
 console.log("Test");
+console.log("Test1");
