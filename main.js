@@ -6,4 +6,9 @@ order.addProduct(new Product("Book", 10));
 order.addProduct(new Product("Pen", 5));
 
 console.log("Total:", order.getTotal());
+<<<<<<< HEAD
 console.log("Say hello");
+=======
+console.log("Calculating total...");
+
+>>>>>>> 4ec2fa1 (Add debug log)
