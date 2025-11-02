@@ -11,4 +11,11 @@ export class Order {
   getTotal() {
     return this.products.reduce((sum, p) => sum + p.price, 0);
   }
+
+   applyDiscount(percent) {
+  this.products = this.products.map(p => {
+    p.price = p.price * (1 - percent / 100);
+    return p;
+  });
+}
 }
