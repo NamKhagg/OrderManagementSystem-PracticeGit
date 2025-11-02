@@ -7,4 +7,5 @@ order.addProduct(new Product("Pen", 5));
 
 console.log("Total:", order.getTotal());
 console.log("Cherry:", order.getTotal());
+console.log("Pick:", order.getTotal());
 
